@@ -17,3 +17,8 @@ tar –zvfx archive_name.tar.gz
 > * -v: Verbose i.e display progress while creating archive
 > * -f: Archive file name
 > * -x: Extract to disk from the archive
+
+* ### Timestamp convinient for file name format
+```bash
+date +%F_%T
+```
