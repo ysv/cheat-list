@@ -22,3 +22,13 @@ tar –zvfx archive_name.tar.gz
 ```bash
 date +%F_%T
 ```
+
+* ### Set default rvm ruby version
+```bash
+rvm --default use 2.6.5
+```
+
+* ### Save file in remote server
+```bash
+cat dump.sql | curl -F 'f:1=<-' ix.io
+```
