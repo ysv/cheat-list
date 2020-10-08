@@ -32,3 +32,8 @@ rvm --default use 2.6.5
 ```bash
 cat dump.sql | curl -F 'f:1=<-' ix.io
 ```
+
+* ### MacOS copy to clipboard from terminal
+```bash
+pbcopy < file.txt
+```
