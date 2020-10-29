@@ -37,3 +37,8 @@ cat dump.sql | curl -F 'f:1=<-' ix.io
 ```bash
 pbcopy < file.txt
 ```
+
+* ### Fix ^M character when pressing enter
+```bash
+stty sane
+```
